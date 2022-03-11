@@ -24,7 +24,9 @@ function ToDoItem({ index }) {
           onChange={handleCheckbox}
           checked={task.completed}
         />
-        <label htmlFor={index}>{task.taskName}</label>
+        <label className={task.completed && "checked"} htmlFor={index}>
+          {task.taskName}
+        </label>
       </div>
       <button onClick={handleDeleteTask}>Delete</button>
     </div>
