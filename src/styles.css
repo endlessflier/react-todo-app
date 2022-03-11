@@ -1,0 +1,38 @@
+.App {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBox {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputBox input {
+  width: calc(100% - 90px);
+}
+
+.todoForm {
+  width: 400px;
+  align-items: center;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 80px;
+}
